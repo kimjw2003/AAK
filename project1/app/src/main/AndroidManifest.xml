@@ -7,9 +7,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/koricon"
+        android:icon="@drawable/koriconee"
         android:label="A.A.K"
-        android:roundIcon="@drawable/koricon"
+        android:roundIcon="@drawable/koriconee"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.kjw.kimjongwoo.ReportActivity"></activity>

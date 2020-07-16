@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.action_report:
                 AlertDialog.Builder alertBuilder = new AlertDialog.Builder(this);
-                alertBuilder.setIcon(R.drawable.koricon);
+                alertBuilder.setIcon(R.drawable.koriconee);
                 alertBuilder.setTitle("버그신고는");
                 alertBuilder.setMessage("kjw111097@gmail.com으로 해주시면 감사하겠습니다. \n\nBug report here : kjw111097@gmail.com"); //훨낫다
                 alertBuilder.setNegativeButton("Ok", new DialogInterface.OnClickListener() {
