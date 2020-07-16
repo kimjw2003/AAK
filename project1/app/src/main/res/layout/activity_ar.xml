@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wb"
+    tools:context=".ui.spot.Daegu.ArActivity">
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="103dp"
+        android:layout_height="45dp"
+        android:background="@android:drawable/ic_menu_call"
+        android:onClick="onClick"
+        android:text="Call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="375dp"
+        android:layout_height="67dp"
+        android:text="Daegu Arboretum"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView53"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="386dp"
+        android:layout_height="134dp"
+        android:text="  Address :Daegu Arboretum Management Office 342 Hwam-ro, Dalseo-gu, Daegu\n  Phone Number : 053-803-7270\n  Operating Hours : 09:00 - 18:00 daily"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="381dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826"
+        app:srcCompat="@drawable/soo" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="401dp"
+        android:layout_height="219dp"
+        android:text="The purpose of the landfill was to be restored as an ecological plant space and used as a natural exploration and plant learning space for citizens, and to provide a base for preserving local plant resources and securing diversity of species. Construction began in December 1998 and opened in May 2002."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933" />
+</androidx.constraintlayout.widget.ConstraintLayout>

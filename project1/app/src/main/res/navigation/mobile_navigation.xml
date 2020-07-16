@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kjw.kimjongwoo.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.kjw.kimjongwoo.ui.gallery.GalleryFragment"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_information"
+        android:name="com.kjw.kimjongwoo.ui.Information.InformationFragment"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/nav_touristspots"
+        android:name="com.kjw.kimjongwoo.ui.Touristspots.TouristspotFragment"
+        tools:layout="@layout/fragment_touristspots" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.kjw.kimjongwoo.ui.map.mapFragment"
+        tools:layout="@layout/fragment_map" />
+</navigation>

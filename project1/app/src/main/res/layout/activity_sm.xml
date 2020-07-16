@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wb"
+    tools:context=".ui.spot.Daegu.SmActivity">
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="103dp"
+        android:layout_height="45dp"
+        android:background="@android:drawable/ic_menu_call"
+        android:onClick="onClick"
+        android:text="Call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="375dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:text="SeoMun Market"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="385dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="100dp"
+        android:text="  Address : Seomun Market, 45 Daejang-ro 26-gil, Jung-gu, Daegu\n  Phone Number : 053-256-6341\n  Operating Hours : 09:00 - 19:00 daily
+Sunday Closed First and Third Sunday Closed"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="381dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="272dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/sms" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="394dp"
+        android:layout_height="165dp"
+        android:text="Seomun Market in Daegu was the largest market in Samnam in the late Joseon period and was considered one of the nation's top three markets. Even today, it is a representative traditional market in Daegu that thrives on textile products such as judan and pommels and various kinds of food."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

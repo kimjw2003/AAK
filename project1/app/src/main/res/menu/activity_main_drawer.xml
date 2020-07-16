@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_Gallery" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="information" />
+    </group>
+
+    <item android:title="For Tourists">
+        <menu>
+            <item
+                android:id="@+id/nav_touristspots"
+                android:icon="@drawable/dialog_map"
+                android:title="tourist spots" />
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_menu_mapmode"
+                android:title="map" />
+        </menu>
+    </item>
+
+</menu>

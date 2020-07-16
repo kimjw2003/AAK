@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kjw.kimjongwoo">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android:permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/koricon"
+        android:label="A.A.K"
+        android:roundIcon="@drawable/koricon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.kjw.kimjongwoo.ReportActivity"></activity>
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Jeju.UActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Jeju.ManActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Jeju.SungActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Jeju.HanActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.J2Activity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Daegu.ArActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Daegu.EwActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Daegu.DongActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Daegu.SmActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.D2Activity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Busan.HaeActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Busan.SeoActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Busan.GwActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.Busan.JaActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.B2Activity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.seoul.YeoActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.seoul.GyeongActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.seoul.LotteActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.seoul.NamActivity" />
+        <activity android:name="com.kjw.kimjongwoo.ui.spot.S2Activity" />
+        <activity android:name="com.kjw.kimjongwoo.SActivity" />
+        <activity android:name="com.kjw.kimjongwoo.JejuActivity" />
+        <activity android:name="com.kjw.kimjongwoo.DActivity" />
+        <activity android:name="com.kjw.kimjongwoo.BusanActivity" />
+        <activity android:name="com.kjw.kimjongwoo.MapActivity" />
+        <activity android:name="com.kjw.kimjongwoo.MainActivity" />
+        <activity
+            android:name="com.kjw.kimjongwoo.IntroActivity"
+            android:label="A.A.K"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC8J1NdFZyqe2DnHn3L7_QFqUlO1YnFb6w" />
+    </application>
+
+</manifest>
